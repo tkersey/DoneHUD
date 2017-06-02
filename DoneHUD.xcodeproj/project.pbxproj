@@ -12,20 +12,9 @@
 		878318FE1B88E21F0062D8D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878318FC1B88E21F0062D8D7 /* Main.storyboard */; };
 		878319001B88E21F0062D8D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878318FF1B88E21F0062D8D7 /* Images.xcassets */; };
 		878319031B88E21F0062D8D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878319011B88E21F0062D8D7 /* LaunchScreen.xib */; };
-		8783190F1B88E21F0062D8D7 /* DoneHUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783190E1B88E21F0062D8D7 /* DoneHUDTests.swift */; };
 		8783191A1B88E2420062D8D7 /* DoneHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878319181B88E2420062D8D7 /* DoneHUD.swift */; };
 		8783191B1B88E2420062D8D7 /* DoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878319191B88E2420062D8D7 /* DoneView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		878319091B88E21F0062D8D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 878318EB1B88E21E0062D8D7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 878318F21B88E21E0062D8D7;
-			remoteInfo = DoneHUD;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		878318F31B88E21E0062D8D7 /* DoneHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoneHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,22 +24,12 @@
 		878318FD1B88E21F0062D8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		878318FF1B88E21F0062D8D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		878319021B88E21F0062D8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		878319081B88E21F0062D8D7 /* DoneHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoneHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8783190D1B88E21F0062D8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8783190E1B88E21F0062D8D7 /* DoneHUDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneHUDTests.swift; sourceTree = "<group>"; };
 		878319181B88E2420062D8D7 /* DoneHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoneHUD.swift; sourceTree = "<group>"; };
 		878319191B88E2420062D8D7 /* DoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		878318F01B88E21E0062D8D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		878319051B88E21F0062D8D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				878318F51B88E21E0062D8D7 /* DoneHUD */,
-				8783190B1B88E21F0062D8D7 /* DoneHUDTests */,
 				878318F41B88E21E0062D8D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				878318F31B88E21E0062D8D7 /* DoneHUD.app */,
-				878319081B88E21F0062D8D7 /* DoneHUDTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,23 +78,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8783190B1B88E21F0062D8D7 /* DoneHUDTests */ = {
-			isa = PBXGroup;
-			children = (
-				8783190E1B88E21F0062D8D7 /* DoneHUDTests.swift */,
-				8783190C1B88E21F0062D8D7 /* Supporting Files */,
-			);
-			path = DoneHUDTests;
-			sourceTree = "<group>";
-		};
-		8783190C1B88E21F0062D8D7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8783190D1B88E21F0062D8D7 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,24 +98,6 @@
 			productReference = 878318F31B88E21E0062D8D7 /* DoneHUD.app */;
 			productType = "com.apple.product-type.application";
 		};
-		878319071B88E21F0062D8D7 /* DoneHUDTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 878319151B88E21F0062D8D7 /* Build configuration list for PBXNativeTarget "DoneHUDTests" */;
-			buildPhases = (
-				878319041B88E21F0062D8D7 /* Sources */,
-				878319051B88E21F0062D8D7 /* Frameworks */,
-				878319061B88E21F0062D8D7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8783190A1B88E21F0062D8D7 /* PBXTargetDependency */,
-			);
-			name = DoneHUDTests;
-			productName = DoneHUDTests;
-			productReference = 878319081B88E21F0062D8D7 /* DoneHUDTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,17 +106,12 @@
 			attributes = {
 				LastSwiftMigration = 0710;
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = blk;
 				TargetAttributes = {
 					878318F21B88E21E0062D8D7 = {
 						CreatedOnToolsVersion = 6.4;
-						LastSwiftMigration = 0800;
-					};
-					878319071B88E21F0062D8D7 = {
-						CreatedOnToolsVersion = 6.4;
-						LastSwiftMigration = 0800;
-						TestTargetID = 878318F21B88E21E0062D8D7;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -192,7 +129,6 @@
 			projectRoot = "";
 			targets = (
 				878318F21B88E21E0062D8D7 /* DoneHUD */,
-				878319071B88E21F0062D8D7 /* DoneHUDTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +141,6 @@
 				878318FE1B88E21F0062D8D7 /* Main.storyboard in Resources */,
 				878319031B88E21F0062D8D7 /* LaunchScreen.xib in Resources */,
 				878319001B88E21F0062D8D7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		878319061B88E21F0062D8D7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,23 +158,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		878319041B88E21F0062D8D7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8783190F1B88E21F0062D8D7 /* DoneHUDTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8783190A1B88E21F0062D8D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 878318F21B88E21E0062D8D7 /* DoneHUD */;
-			targetProxy = 878319091B88E21F0062D8D7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		878318FC1B88E21F0062D8D7 /* Main.storyboard */ = {
@@ -280,14 +193,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -324,8 +240,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -344,6 +262,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -353,8 +272,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DoneHUD/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.blk.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -365,46 +285,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DoneHUD/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.blk.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		878319161B88E21F0062D8D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DoneHUDTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoneHUD.app/DoneHUD";
-			};
-			name = Debug;
-		};
-		878319171B88E21F0062D8D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DoneHUDTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoneHUD.app/DoneHUD";
 			};
 			name = Release;
 		};
@@ -425,15 +310,6 @@
 			buildConfigurations = (
 				878319131B88E21F0062D8D7 /* Debug */,
 				878319141B88E21F0062D8D7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		878319151B88E21F0062D8D7 /* Build configuration list for PBXNativeTarget "DoneHUDTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				878319161B88E21F0062D8D7 /* Debug */,
-				878319171B88E21F0062D8D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
